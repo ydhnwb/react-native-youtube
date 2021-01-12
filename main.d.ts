@@ -21,6 +21,7 @@ export interface YouTubeProps {
   onChangeFullscreen?: (event: any) => void;
   onProgress?: (event: any) => void;
   style?: StyleProp<ViewStyle>;
+  apiKey: string;
 }
 
 declare class YouTube extends React.Component<YouTubeProps> {
